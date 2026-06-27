@@ -1,0 +1,75 @@
+.risk-app {
+  min-height: 100vh;
+  background: #020617;
+  color: #e5e7eb;
+}
+
+.risk-header {
+  padding: 24px 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.risk-header h2 {
+  color: white;
+}
+
+.risk-header a {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.risk-header a:hover {
+  color: #38bdf8;
+}
+
+.model-navbar {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  align-items: center;
+  padding: 20px 36px;
+  border-bottom: 1px solid #334155;
+}
+
+.navbar-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navbar-center {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.model-navbar button {
+  background: transparent;
+  border: none;
+  color: #cbd5e1;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 12px 0;
+  border-bottom: 3px solid transparent;
+  transition: 0.25s;
+}
+
+.model-navbar button:hover {
+  color: #38bdf8;
+}
+
+.model-navbar button.active {
+  color: #38bdf8;
+  border-bottom-color: #38bdf8;
+}
+
+.risk-content {
+  padding: 36px;
+}
+
+.risk-content h3 {
+  color: white;
+  font-size: 24px;
+}
